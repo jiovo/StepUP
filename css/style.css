@@ -50,11 +50,36 @@ body {
 }
 
 .info-right .info-item {
-  margin-left: 17px;
+  margin-left: 6px;
 }
 
 .info-link {
   text-decoration: none;
+}
+
+.info-link svg {
+  color: #30a3f0;
+  margin-right: 11px;
+}
+
+.register::before {
+  content: "/";
+  margin-right: 6px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.nav-btn svg {
+  color: #444444;
+}
+
+.logo {
+  width: 158px;
 }
 
 .head {
@@ -74,6 +99,10 @@ body {
 
 .nav-item {
   margin-left: 8px;
+}
+
+.nav-item-btn {
+  margin-left: 21px;
 }
 
 .nav-link {
